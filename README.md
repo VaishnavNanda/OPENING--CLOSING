@@ -29,8 +29,8 @@ Use Closing Operation
 
  
 ## Program:
-Developed by:JEEVAGOWTHAM S
-Register Number:212222230053
+Developed by:S VAISHNAV NANDA
+Register Number:212222240112
 
 # Import the necessary packages:
 ```
@@ -45,7 +45,7 @@ import matplotlib.pyplot as plt
 ```
 img1=np.zeros((100,400),dtype='uint8')
 font=cv2.FONT_HERSHEY_COMPLEX_SMALL
-cv2.putText(img1,'JEEVAGOWTHAM',(5,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img1,'VAISHNAV',(5,70),font,2,(255),5,cv2.LINE_AA)
 plt.imshow(img1,cmap='magma')
 plt.title('Input Text'), plt.xticks([]), plt.yticks([])
 plt.show()
@@ -86,7 +86,9 @@ plt.show()
 ## Output:
 
 ### Display the input Image:
-![Screenshot 2023-10-18 081938](https://github.com/JeevaGowtham-S/OPENING--CLOSING/assets/118042624/8d82ec9c-4e98-40d4-b1ba-777042ea3a40)
+![Screenshot from 2023-11-07 14-14-11](https://github.com/VaishnavNanda/OPENING--CLOSING/assets/118707051/8f6147c4-b2f4-4785-a542-e2f60a9cdb1e)
+
+
 
 <br>
 <br>
@@ -96,7 +98,8 @@ plt.show()
 <br>
 
 ### Display the result of Opening
-![Screenshot 2023-10-18 082527](https://github.com/JeevaGowtham-S/OPENING--CLOSING/assets/118042624/f532686f-a03b-4dd6-8215-36395f643ee1)
+![Screenshot from 2023-11-07 14-14-20](https://github.com/VaishnavNanda/OPENING--CLOSING/assets/118707051/efabecd4-e635-4b6a-b582-8215344d4d3d)
+
 
 <br>
 <br>
@@ -106,7 +109,8 @@ plt.show()
 <br>
 
 ### Display the result of Closing
-![Screenshot 2023-10-18 082607](https://github.com/JeevaGowtham-S/OPENING--CLOSING/assets/118042624/aafe4464-fd47-411f-a8a2-71e08612cef7)
+![Screenshot from 2023-11-07 14-14-28](https://github.com/VaishnavNanda/OPENING--CLOSING/assets/118707051/49c5faf8-97d6-4cf9-b378-20693e5fec49)
+
 
 <br>
 <br>
